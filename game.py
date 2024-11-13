@@ -10,7 +10,7 @@ def run():
     pygame.init()
     screen = pygame.display.set_mode((700, 800))
     pygame.display.set_caption("spase game")
-    icon = pygame.image.load('game/images/icon2.png')
+    icon = pygame.image.load('images/icon2.png')
     pygame.display.set_icon(icon)
     bg_color = (0, 0, 0)
     gun = Gun(screen)
